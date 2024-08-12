@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #181e2a;
+    --secondary-color: #1c2230;
+}
+/* Estilos personalizados para la página */
+body {
+    background-color: #1b212f;
+    color: #ffffff;
+    background-image: url('../images/bg-curvy-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:contain;            
+    width: 100%;
+}       
+.color-primario{
+    background-color:var(--primary-color);
+    background-size:cover;            
+}
+.color-secundario{
+    background-color:var(--primary-color);            
+    background-size:cover;
+}
